@@ -14,6 +14,7 @@ Mochammad Rezky Ramadhan | 2409116029 | Sistem Informasi A
 2.  Setelah selesai login sederhana, user diminta untuk menginputkan berapa jam bekerja dan tarif kerja per jam
     ![Screenshot_73](https://github.com/user-attachments/assets/736ba31f-3314-47d7-91e5-f5f37f23235b)
 3.  Jika telah memasukkan jam kerja dan tarif kerja, maka dihitunglah oleh program yang sudah dibuat sebelumnya dan sesuai rumus operasi untuk mencari total gaji.
+
     ![Screenshot_74](https://github.com/user-attachments/assets/5a95d97e-82bf-4893-9871-d60f573bea0a)
 4.  Nah jika sudah selesai, user diberikan pilihan apakah ingin menghitung gaji lagi atau keluar dari program
     a.    Jika user memilih No.1 user akan mengulang program (disini saya akan mengulang untuk mendapatkan bonus gaji)
