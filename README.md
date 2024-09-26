@@ -19,7 +19,8 @@ Mochammad Rezky Ramadhan | 2409116029 | Sistem Informasi A
 4.  Nah jika sudah selesai, user diberikan pilihan apakah ingin menghitung gaji lagi atau keluar dari program
 
     a.    Jika user memilih No.1 user akan mengulang program (disini saya akan mengulang untuk mendapatkan bonus gaji)
-          ![Screenshot_90](https://github.com/user-attachments/assets/9d6ec4a6-aeb2-4f0e-ad5f-ba2dca9022a1)
+
+    ![Screenshot_90](https://github.com/user-attachments/assets/9d6ec4a6-aeb2-4f0e-ad5f-ba2dca9022a1)
 
     b.    Tapi jika user sudah ingin keluar dari program maka pilihlah No.2 untuk menyelesaikan program
           ![Screenshot_77](https://github.com/user-attachments/assets/bdaa8100-a0ec-433d-b673-a113a2bb79d7)
