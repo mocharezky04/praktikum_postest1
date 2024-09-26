@@ -11,8 +11,8 @@ print("\nSelamat datang", nama, "dengan NIM", nim, "dari Prodi", prodi)
 
 while True: # Menggunakan while untuk mengulang pertanyaan atau menghitung gaji lagi
     # Menggunakan input untuk jam kerja dan tarif kerja dan menghitung total gaji
-    jam_kerja = float(input("\nMasukkan berapa jam kamu bekerja: "))
-    tarif_kerja = float(input("Masukkan tarif kerja per jam: Rp."))
+    jam_kerja = int(input("\nMasukkan berapa jam kamu bekerja: "))
+    tarif_kerja = int(input("Masukkan tarif kerja per jam: Rp."))
     total_gaji = jam_kerja * tarif_kerja
 
     # Membuat percabangan untuk menentukan apakah jam kerja karyawan lebih dari 160 jam.
@@ -36,5 +36,5 @@ while True: # Menggunakan while untuk mengulang pertanyaan atau menghitung gaji 
         print("\nTerima Kasih telah menggunakan program python ini. anda akan dikeluarkan dari program ini dan selamat tinggal!")
         break # keluar dari program karena memilih untuk keluar atau no.2
     else:
-        print("\nMaaf, Pilihan tdak ada. program akan di selesaikan dan harus mengulang dari awal/login kembali")
-        break # dikeluarkan karena tidak ada pilihan selain nomor 1 dan 2
+        print("\nMaaf, Pilihan tidak ada. Anda akan secara otomatis dikeluarkan dalam program ini")
+        break # Keluar dari program dikarenakan tidak ada pilihan selain 1 dan 2
