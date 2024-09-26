@@ -1,17 +1,17 @@
 # program menghitung gaji karyawan berdasarkan jam kerja dan tarif kerja.
 
 # Login User, NIM, dan Prodi
-print("Tolong Login Menggunakan Nama, NIM, dan Prodi")
+print("Tolong Login Menggunakan Nama, NIM, dan Prodi\n")
 nama = input("Masukkan Nama: ")
 nim = input("Masukkan NIM: ")
 prodi = input("Masukkan Prodi: ")
 
 # kode Selamat datang untuk user
-print("Selamat datang", nama, "dengan NIM", nim, "dari Prodi", prodi)
+print("\nSelamat datang", nama, "dengan NIM", nim, "dari Prodi", prodi)
 
 while True: # Menggunakan while untuk mengulang pertanyaan atau menghitung gaji lagi
     # Menggunakan input untuk jam kerja dan tarif kerja dan menghitung total gaji
-    jam_kerja = float(input("Masukkan berapa jam kamu bekerja: "))
+    jam_kerja = float(input("\nMasukkan berapa jam kamu bekerja: "))
     tarif_kerja = float(input("Masukkan tarif kerja per jam: Rp."))
     total_gaji = jam_kerja * tarif_kerja
 
@@ -21,10 +21,10 @@ while True: # Menggunakan while untuk mengulang pertanyaan atau menghitung gaji 
     if int(jam_kerja) > 160:
         gaji_bonus = 0.10 * total_gaji # menghitung tambahan gaji bonus
         total_gaji += gaji_bonus
-        print("Selamat anda mendapatkan bonus sebesar 10% dari total gaji")
+        print("\nSelamat anda mendapatkan bonus sebesar 10% dari total gaji")
         print("dan ini gaji anda setelah mendapatkan bonus:", total_gaji)
     else:
-        print("Maaf anda tidak mendapatkan bonus karena tidak melebihi 160 jam kerja")
+        print("\nMaaf anda tidak mendapatkan bonus karena tidak melebihi 160 jam kerja")
         print("Dan ini gaji anda sekarang:", total_gaji)
 
     # Menerapkan perulangan untuk memberikan pilihan apakah ingin menghitung gaji lagi atau keluar dari program
@@ -33,8 +33,8 @@ while True: # Menggunakan while untuk mengulang pertanyaan atau menghitung gaji 
     if pilihan == 1:
         continue # Menghitung gaji lagi
     elif pilihan == 2:
-        print("Terima Kasih telah menggunakan program python ini. anda akan dikeluarkan dari program ini dan selamat tinggal!")
+        print("\nTerima Kasih telah menggunakan program python ini. anda akan dikeluarkan dari program ini dan selamat tinggal!")
         break # keluar dari program karena memilih untuk keluar atau no.2
     else:
-        print("Maaf, Pilihan tdak ada. program akan di selesaikan dan harus mengulang dari awal/login kembali")
+        print("\nMaaf, Pilihan tdak ada. program akan di selesaikan dan harus mengulang dari awal/login kembali")
         break # dikeluarkan karena tidak ada pilihan selain nomor 1 dan 2
