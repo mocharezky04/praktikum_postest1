@@ -2,7 +2,7 @@
 Mochammad Rezky Ramadhan | 2409116029 | Sistem Informasi A
 
 # **Flowchart**
-![Diagram Menghitung gaji(4)](https://github.com/user-attachments/assets/e50972e9-721b-440e-96b0-4f6d3c7a54eb)
+![Diagram Menghitung gaji (5)](https://github.com/user-attachments/assets/7a5340e2-7844-40a2-bf81-b1407dcd8c0e)
 
 # **Contoh Output awal sampai akhir**
 ![Screenshot_92](https://github.com/user-attachments/assets/19e208a2-7c5f-4166-84de-9f324603ac95)
