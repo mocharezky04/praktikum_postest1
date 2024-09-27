@@ -1,13 +1,22 @@
 # program menghitung gaji karyawan berdasarkan jam kerja dan tarif kerja.
 
-# Login User, NIM, dan Prodi
+# Login Sederhana User, NIM, dan Prodi
 print("Tolong Login Menggunakan Nama, NIM, dan Prodi\n")
-nama = input("Masukkan Nama: ")
-nim = input("Masukkan NIM: ")
-prodi = input("Masukkan Prodi: ")
+nama = input("Masukkan Nama: ") # Input Nama
 
-# menampilkan Selamat datang untuk user
-print("\nSelamat datang", nama, "dengan NIM", nim, "dari Prodi", prodi)
+# Input Prodi
+prodi = input("Masukkan Prodi: ") 
+
+# Proses input NIM dengan menggunakan while untuk terus meminta input NIM hingga pengguna memasukkan NIM yang benar (berupa angka).
+while True: 
+    nim = input("Masukkan NIM: ")
+    if nim.isdigit(): # Mengecek apakah NIM hanya berisi angka
+        break # Jika benar, loop akan berhenti dengan break
+    else: # Jika salah(ada huruf atau selain angka), program akan meminta user untuk input nim ulang dan akan diberi peringatan
+        print("Tolong isi dengan angka dan bukan huruf ya!")
+
+# menampilkan Selamat datang atau sapaan untuk user
+print("\nSelamat datang", nama, "dari Prodi", prodi, "dengan NIM", nim,)
 
 while True: # Menggunakan while untuk mengulang pertanyaan atau menghitung gaji lagi
     # Menggunakan input untuk jam kerja dan tarif kerja serta menghitung total gaji
