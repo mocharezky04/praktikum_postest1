@@ -5,7 +5,8 @@ Mochammad Rezky Ramadhan | 2409116029 | Sistem Informasi A
 ![Diagram Menghitung gaji (5)](https://github.com/user-attachments/assets/7a5340e2-7844-40a2-bf81-b1407dcd8c0e)
 
 # **Contoh Output awal sampai akhir**
-![Screenshot_92](https://github.com/user-attachments/assets/19e208a2-7c5f-4166-84de-9f324603ac95)
+![Screenshot_96](https://github.com/user-attachments/assets/bd3e8d87-068f-4247-bdd7-7ce76190783e)
+![Screenshot_97](https://github.com/user-attachments/assets/fbbc4b7a-008f-49a2-b85b-bdb19a526709)
 
 # **Penjelasan Output**
 1.  User melakukan login sederhana seperti memasukkan Nama user, NIM, dan Prodi
@@ -29,4 +30,5 @@ Mochammad Rezky Ramadhan | 2409116029 | Sistem Informasi A
     ![Screenshot_90](https://github.com/user-attachments/assets/9d6ec4a6-aeb2-4f0e-ad5f-ba2dca9022a1)
 
     b.    Tapi jika user sudah ingin keluar dari program maka pilihlah No.2 untuk menyelesaikan program
-          ![Screenshot_77](https://github.com/user-attachments/assets/bdaa8100-a0ec-433d-b673-a113a2bb79d7)
+          ![Screenshot_98](https://github.com/user-attachments/assets/49ba2eb6-e583-4e5d-a58f-ba734c13ddac)
+
