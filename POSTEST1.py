@@ -34,11 +34,11 @@ while True: # Menggunakan while untuk mengulang pertanyaan atau menghitung gaji 
         print("dan ini gaji anda setelah mendapatkan bonus:", total_gaji) # menampilkan total gaji yang sudah ditambah dengan gaji bonus
     else:
         print("\nMaaf anda tidak mendapatkan bonus karena tidak melebihi 160 jam kerja")
-        print("Dan ini gaji anda sekarang:", total_gaji) # menampilkan gaji yang tidak dihitung dengan gaji bonus
+        print("dan ini gaji anda sekarang:", total_gaji) # menampilkan gaji yang tidak dihitung dengan gaji bonus
 
     # Menerapkan perulangan untuk memberikan pilihan apakah ingin menghitung gaji lagi atau keluar dari program
     print('\nSilahkan pilih pilihan berikut:\n 1.ingin menghitung gaji lagi?\n 2.keluar dari program\n') # pilihan untuk user apakah user mau menghitung gaji lagi atau tidak
-    pilihan = int(input('Masukan pilihan anda(nomor 1 atau 2): ')) 
+    pilihan = int(input('Masukkan pilihan anda(nomor 1 atau 2): ')) 
     if pilihan == 1: 
         continue # User akan menghitung gaji lagi jika memilih no.1
     elif pilihan == 2:
