@@ -1,4 +1,4 @@
-# **Praktikum Postest1**
+# **Praktikum MiniProject1**
 Mochammad Rezky Ramadhan | 2409116029 | Sistem Informasi A
 
 # **Flowchart**
